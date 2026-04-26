@@ -1,0 +1,1 @@
+//config BattleAutoTarget false

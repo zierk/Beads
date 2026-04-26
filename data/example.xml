@@ -1,0 +1,103 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <!-- Buffs to maintain during the Lilith fight. Look up buff IDs in Windower/res/buffs.lua. -->
+        <lilith_buffs>
+            <!-- Example:
+            <1>
+                <name>Haste II</name>
+                <buff_id>33</buff_id>
+            </1>
+            <2>...</2>
+            <3>...</3>
+            -->
+        </lilith_buffs>
+
+        <!-- Debuffs to maintain during the Lilith fight. Look up debuff IDs in Windower/res/buffs.lua. -->
+        <lilith_debuffs>
+            <!-- Example:
+            <1>
+                <name>Dia III</name>
+                <buff_id>134</buff_id>
+            </1>
+            <2>...</2>
+            <3>...</3>
+            -->
+        </lilith_debuffs>
+
+        <!-- Trusts to summon for the Lilith fight. -->
+        <lilith_trusts>
+            <1>
+                <party_name>Kupipi</party_name>  <!-- Name of the trust as it appears in the party list. -->
+                <spell_name>Kupipi</spell_name>  <!-- Name of the spell used to summon the trust. -->
+            </1>
+            <2>
+                <party_name>Qultada</party_name>
+                <spell_name>Qultada</spell_name>
+            </2>
+            <3>
+                <party_name>Ulmia</party_name>
+                <spell_name>Ulmia</spell_name>
+            </3>
+            <4>
+                <party_name>Joachim</party_name>
+                <spell_name>Joachim</spell_name>
+            </4>
+            <5>
+                <party_name>Selh&apos;teus</party_name>
+                <spell_name>Selh&apos;teus</spell_name>
+            </5>
+        </lilith_trusts>
+
+        <!-- Buffs to maintain while farming merits. See above for example. -->
+        <merit_buffs>
+        </merit_buffs>
+
+        <!-- Spot to farm merits. Valid values: foret_0, foret_1, inner_rakaznar, morimar_1, morimar_3. -->
+        <merit_farm_area>foret_0</merit_farm_area>
+
+        <!-- Trusts to summon while farming merits. -->
+        <merit_trusts>
+            <1>
+                <party_name>Apururu</party_name>
+                <spell_name>Apururu (UC)</spell_name>
+            </1>
+            <2>
+                <party_name>Qultada</party_name>
+                <spell_name>Qultada</spell_name>
+            </2>
+            <3>
+                <party_name>Ulmia</party_name>
+                <spell_name>Ulmia</spell_name>
+            </3>
+            <4>
+                <party_name>Joachim</party_name>
+                <spell_name>Joachim</spell_name>
+            </4>
+            <5>
+                <party_name>Shantotto</party_name>
+                <spell_name>Shantotto II</spell_name>
+            </5>
+        </merit_trusts>
+
+        <!-- Optional spell or ability to use to pull mobs while farming merits. Also accepts /ra. -->
+        <!-- <pull_spell_or_ability>Dia III</pull_spell_or_ability> -->
+
+        <!-- Weaponskill to attack merit mobs and Lilith with. Overrides skillchain if defined. -->
+        <!-- <weaponskill>Savage Blade</weaponskill> -->
+
+        <!-- Skillchain to execute on merit mobs and Lilith. -->
+        <skillchain>
+            <1>Savage Blade</1>
+            <!-- <2>Burning Blade</2> -->
+            <!-- <3>Flat Blade</3> -->
+            <!-- <4>Savage Blade</4> -->
+        </skillchain>
+
+        <!-- Whether to build TP on gyves and only WS lilith. If false, targets Lilith the whole time. -->
+        <tp_on_gyves>true</tp_on_gyves>
+
+        <!-- Difficulty to queue for. Valid values: VE, E, N, D, VD. -->
+        <difficulty>VE</difficulty>
+    </global>
+</settings>

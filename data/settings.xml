@@ -1,0 +1,64 @@
+<?xml version="1.1" ?>
+<settings>
+    <global>
+        <ambu_buffs>
+
+        </ambu_buffs>
+        <ambu_debuffs>
+
+        </ambu_debuffs>
+        <di_trusts>
+            <1>
+                <party_name>Koru-Moru</party_name>
+                <spell_name>Koru-Moru</spell_name>
+            </1>
+            <2>
+                <party_name>Lilisette II</party_name>
+                <spell_name>Lilisette II</spell_name>
+            </2>
+            <3>
+                <party_name>Joachim</party_name>
+                <spell_name>Joachim</spell_name>
+            </3>
+            <4>
+                <party_name>Pieuje</party_name>
+                <spell_name>Pieuje (UC)</spell_name>
+            </4>
+            <5>
+                <party_name>Yoran-Oran</party_name>
+                <spell_name>Yoran-Oran (UC)</spell_name>
+            </5>
+        </di_trusts>
+        <difficulty>VD</difficulty>
+        <merit_buffs>
+
+        </merit_buffs>
+        <merit_farm_area>dragon</merit_farm_area>
+        <merit_trusts>
+            <1>
+                <party_name>Apururu</party_name>
+                <spell_name>Apururu (UC)</spell_name>
+            </1>
+            <2>
+                <party_name>Apururu</party_name>
+                <spell_name>Apururu (UC)</spell_name>
+            </2>
+            <3>
+                <party_name>Apururu</party_name>
+                <spell_name>Apururu (UC)</spell_name>
+            </3>
+            <4>
+                <party_name>Apururu</party_name>
+                <spell_name>Apururu (UC)</spell_name>
+            </4>
+            <5>
+                <party_name>Apururu</party_name>
+                <spell_name>Apururu (UC)</spell_name>
+            </5>
+        </merit_trusts>
+        <skillchain>
+            <1>Torcleaver</1>
+        </skillchain>
+        <tp_on_gyves>true</tp_on_gyves>
+    </global>
+</settings>
