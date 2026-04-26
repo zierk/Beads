@@ -5,6 +5,7 @@ _addon.commands = {'beads'}
 windower.add_to_chat(204, "Beads - Set HP to Northen San'doria #2 - Start in DI area - Requires SuperWarp addon")
 bot = require('bot/bot')
 config = require 'config'
+windower.send_command('config BattleAutoTarget false')
 require('tables')
 packets = require('packets')
 setting_utils = require('setting_utils')
@@ -144,7 +145,8 @@ function move_to_ruuan()
   bot.send_dialog_packet(mob_id, menu_id, 2, false, 117) -- miseraux
   bot.wait_for_zone_change()
   bot.wait_for_mob_by_name('Home Point #1', false)
-  bot.run_to_pos(-54.00, 574.26)
+  bot.run_to_pos(-62.93, 570.09)
+  bot.run_to_pos(-49.62, 569.80)
   local mob_id = bot.wait_for_mob_by_name('Undulating Confluence', false)
   local menu_id = bot.start_dialog(mob_id)
   bot.send_dialog_packet(mob_id, menu_id, 0, true, 0, 0)
@@ -182,15 +184,15 @@ end
 function clear_domain()
   local zone = windower.ffxi.get_info().zone
   if zone == 288 then 
-    bot.run_to_pos(-11.20, 48.60)
+    bot.run_to_pos(10.19, 40.60)
     coroutine.sleep(.5)
     summon_trusts(settings.di_trusts)
   elseif zone == 289 then 
-    bot.run_to_pos(-9.3, -224)
+    bot.run_to_pos(-5.3, -212)
     coroutine.sleep(.5)
     summon_trusts(settings.di_trusts)
   elseif zone == 291 then
-    bot.run_to_pos(618, -926)
+    bot.run_to_pos(627, -952)
     coroutine.sleep(.5)
     summon_trusts(settings.di_trusts)
   end
